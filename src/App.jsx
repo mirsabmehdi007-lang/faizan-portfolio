@@ -7,7 +7,7 @@ const img = Object.fromEntries(
 )
 const CV = import.meta.env.BASE_URL + 'Faizan_Hashim_Resume.pdf'
 // TODO: put your real usernames here
-const LINKEDIN = 'https://www.linkedin.com/in/faizan-hashim-be-mba-bb83ab98?utm_source=share_via&utm_content=profile&utm_medium=member_android'
+const LINKEDIN = 'https://www.linkedin.com/in/faizan-hashim-be-mba-bb83ab98'
 const EMAIL = 'hashimfaizan93@gmail.com'
 const PHONE = '+92-332-3224626'
 const COMPANY = { 1: 'Shafi Gluco Chem', 2: 'Digital Apparel' }
