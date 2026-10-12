@@ -7,8 +7,8 @@ const img = Object.fromEntries(
 )
 const CV = import.meta.env.BASE_URL + 'Faizan_Hashim_Resume.pdf'
 // TODO: put your real usernames here
-const LINKEDIN = 'https://www.linkedin.com/in/YOUR-LINKEDIN-USERNAME'
-const GITHUB = 'https://github.com/YOUR-GITHUB-USERNAME'
+const LINKEDIN = 'https://www.linkedin.com/in/faizan-hashim-be-mba-bb83ab98?utm_source=share_via&utm_content=profile&utm_medium=member_android'
+
 const EMAIL = 'hashimfaizan93@gmail.com'
 const PHONE = '+92-332-3224626'
 const COMPANY = { 1: 'Shafi Gluco Chem', 2: 'Digital Apparel' }
@@ -224,7 +224,7 @@ export default function App() {
             <div><h4>Navigation</h4>{NAV.slice(1, 5).map(([id, l]) => <a key={id} href={`#${id}`}>{l}</a>)}</div>
             <div><h4>Contact</h4>
               <a href={LINKEDIN} target="_blank" rel="noopener noreferrer">LinkedIn</a>
-              <a href={GITHUB} target="_blank" rel="noopener noreferrer">GitHub</a>
+          
               <a href={`tel:${PHONE}`}>{PHONE}</a><a href={`mailto:${EMAIL}`}>{EMAIL}</a>
             </div>
           </div>
